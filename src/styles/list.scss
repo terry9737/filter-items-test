@@ -1,0 +1,11 @@
+.alert {
+  max-width: 500px;
+  width: 100%;
+  font-weight: bold;
+  border: 1px solid gold;
+}
+.alert.success {
+  @extend .alert;
+  background: greenyellow;
+  color: #fff;
+}

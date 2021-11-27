@@ -1,0 +1,21 @@
+.layout_main {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-rows: repeat(3, minmax(0, 1fr));
+}
+.header {
+  grid-column: span 2 / span 2;
+  background: gray;
+  height: 200px;
+}
+.aside {
+  grid-column: span 1 / span 1;
+  background: green;
+}
+.main {
+  background: red;
+}
+.footer {
+  grid-column: span 2 / span 2;
+  background: greenyellow;
+}

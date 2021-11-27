@@ -1,0 +1,27 @@
+.grid_main {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10em;
+}
+.box {
+  background: pink;
+
+  h3 {
+    text-align: center;
+  }
+  p {
+    text-align: right;
+    background: lightblue;
+    text-align: center;
+  }
+  h5 {
+    color: #fff;
+  }
+  img {
+    max-width: 150px;
+  }
+}
+.center_image {
+  display: flex;
+  justify-content: center;
+}
